@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-file_path = '325-Project.xlsx' # Update with the correct path if necessary
+file_path = '/content/325-Project.xlsx' # Update with the correct path if necessary
 data = pd.read_excel(file_path)
 
 # Convert Last GPA values over 4 to a 4.0 scale, and set any non-student entries to 0
